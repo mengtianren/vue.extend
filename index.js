@@ -14,4 +14,9 @@ const init = (option) => {
     Component = null;
   });
 };
-export default init;
+export default init;   // main.js   vue.prototype.$xxx = init
+// export default {
+//   install(Vue){
+//     Vue.prototype.$xxx = init
+//   }
+// }  // main.js Vue.use(init)
